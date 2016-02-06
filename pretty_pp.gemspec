@@ -6,12 +6,12 @@ require 'pretty_pp/version'
 Gem::Specification.new do |spec|
   spec.name          = "pretty_pp"
   spec.version       = PrettyPp::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["hideki.murasato@tohmatsu.co.jp"]
+  spec.authors       = ["mrst"]
+  spec.email         = ["@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{gem sample.}
+  spec.description   = %q{pretty pretty print.}
+  spec.homepage      = "https://github.com/ngised/pretty_pp"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
