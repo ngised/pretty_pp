@@ -1,16 +1,5 @@
 require "pretty_pp/version"
 
-=begin
-"\e[30m#{s}\e[0m" # Black
-"\e[31m#{s}\e[0m" # Red
-"\e[32m#{s}\e[0m" # Green
-"\e[33m#{s}\e[0m" # Yellow
-"\e[34m#{s}\e[0m" # Blue
-"\e[35m#{s}\e[0m" # Magenta
-"\e[36m#{s}\e[0m" # Cyan
-"\e[37m#{s}\e[0m" # White
-=end
-
 module PrettyPp
   @@enable = true
   @@stack = []
